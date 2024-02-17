@@ -3,7 +3,7 @@
     --grey: #dadbf1;
     --black: #1d1d1d;
     --white: #fefeff;
-    --fs__title--1: 48px;
+    --fs__title--1: 60px;
     --fs__title--2: 36px;
     --fs__subtitle--1: 30px;
     --fs__subtitle--2: 24px;
@@ -27,36 +27,43 @@
     text-decoration: none;
     display: inline-block;
     font-size: var(--fs__title--1);
+    line-height: 1;
 }
 .title--2{
     text-decoration: none;
     display: inline-block;
     font-size: var(--fs__title--2);
+    line-height: 1;
 }
 .subtitle--1{
     text-decoration: none;
     display: inline-block;
     font-size: var(--fs__subtitle--1);
+    line-height: 1;
 }
 .subtitle--2{
     text-decoration: none;
     display: inline-block;
     font-size: var(--fs__subtitle--2);
+    line-height: 1;
 }
 .paragraph--1{
     text-decoration: none;
     display: inline-block;
     font-size: var(--fs__paragraph--1);
+    line-height: 1;
 }
 .paragraph--2{
     text-decoration: none;
     display: inline-block;
     font-size: var(--fs__paragraph--2);
+    line-height: 1;
 }
 .paragraph--3{
     text-decoration: none;
     display: inline-block;
     font-size: var(--fs__paragraph--3);
+    line-height: 1;
 }
 
 .tc_white{
