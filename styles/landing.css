@@ -1,0 +1,34 @@
+@import url(helper.css);
+
+/* CONTAINER */
+.container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HEADER */
+.header{
+    width: 100%;
+    background-color: var(--black);
+    padding: 12px 0px;
+}
+.container:nth-child(1){
+    justify-content: space-between;
+}
+.header__logo:hover{
+    text-decoration: underline;
+}
+.header__button{
+    padding: 8px 22px;
+    border: none;
+    outline: 1px solid var(--white);
+    border-radius: 7px;
+}
+.header__button--mod{
+    background-color: var(--purple);
+    outline: none;
+    margin-left: 10px;
+}

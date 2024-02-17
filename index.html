@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="styles/landing.css">
     <title>Page 1 - Home</title>
 </head>
 <body>
     
     <!-- HEADER -->
-    <header>
+    <header class="header">
         <!-- HEADER CONTAINER -->
-        <div>
+        <div class="container">
             <!-- LEFT -->
             <div>
-                <h2>Abstract</h2>
-                <h2>Help Center</h2>
+                <a href="index.html">
+                    <h2 class="header__logo paragraph--1 tc_white">Abstract</h2>
+                </a>
+                <h2 class="paragraph--1 tc_white">&nbsp;|&nbsp; Help Center</h2>
             </div>
             <!-- RIGHT -->
             <div>
-                <a href="#">Submit a request</a>
-                <a href="#">Sing in</a>
+                <a class="paragraph--2 tc_white header__button" href="#">Submit a request</a>
+                <a class="paragraph--2 tc_white header__button header__button--mod" href="#">Sing in</a>
             </div>
         </div>
     </header>
